@@ -1,0 +1,41 @@
+# 默认忽略所有文件，只保留脚本与仓库说明文件
+*
+!*/
+!.gitignore
+!README.md
+
+# 允许追踪的脚本文件
+!*.py
+!*.ps1
+!*.psm1
+!*.sh
+!*.bash
+!*.zsh
+!*.bat
+!*.cmd
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# 运行产物
+*.log
+*.txt
+*.out
+*.pid
+*.png
+reg_*.png
+
+# 常见 IDE / 编辑器文件
+.idea/
+.vscode/
