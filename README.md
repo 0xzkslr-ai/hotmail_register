@@ -45,6 +45,10 @@
 - `Faker 40.13.0`
 - `requests 2.33.1`
 
+firefox下载：
+
+https://github.com/LoseNine/ruyipage  release里有
+
 ### 创建虚拟环境
 
 ```powershell
